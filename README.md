@@ -1,5 +1,5 @@
 # Wikipedia_word_embedding
-university Paris 8 - Text mining project for Master 2 Big Data
+University Paris 8 - Text mining project for Master 2 Big Data
 
 ## Requirements
 ### Language programming
@@ -18,4 +18,8 @@ First, extract the data from your wikipedia dump with the wikiextractor library.
 
 A "text" folder is created with several json files.
 
-Use this command for create a vector with previous folder : `python3 w2v.py <Model name> <language for stopword>` .
+Use this command to create a vector with the previous folder : `python3 w2v.py <Model name> <language for stopword>` .
+
+recommandation : name your model with this .model extension.
+
+Use this command to test vector that has been created : `python3 read_w2v.py <Model name>`
