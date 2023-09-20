@@ -1,7 +1,11 @@
 # Wikipedia_word_embedding
 university Paris 8 - Text mining project for Master 2 Big Data
 
-## Install library
+## Requirements
+### Language programming
+- python
+  
+### Install library
 - nltk
 - gensim
 - string
